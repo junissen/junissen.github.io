@@ -1,0 +1,313 @@
+@font-face {
+    font-family:"technology-icons";
+    src:url("fonts/technology-icons.eot");
+    font-weight:normal;
+    font-style:normal;
+}@font-face {
+	font-family:"technology-icons";
+	src:url("fonts/technology-icons.eot");
+	src:url("fonts/technology-icons.eot?#iefix") format("embedded-opentype"),
+		url("fonts/technology-icons.woff") format("woff"),
+		url("fonts/technology-icons.ttf") format("truetype"),
+		url("fonts/technology-icons.svg?#technology-icons") format("svg");
+	font-weight:normal;
+	font-style:normal;
+}
+
+
+.navContainer { 
+	background-image: url(../images/chalkboard.jpg) 
+}
+
+#preName {
+	color: white;
+	display: inline-block;
+}
+
+#name {
+	color: #C0392B;
+	display: inline-block;
+}
+
+#name:hover {
+	text-decoration: none
+}
+
+.topContainertitle {
+	font-size: 80px;
+	padding-top: 200px;
+	padding-bottom: -10px;
+	margin-bottom: -10px;
+	text-align: center;
+	font-family: 'Lobster Two', cursive;
+}
+
+.topContainersub {
+	font-size: 30px;
+	padding-bottom: 200px;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+	color: white;
+}
+
+#navbar {
+	padding: 0px 10px 0px 10px;
+	font-family: 'Open Sans', sans-serif;
+	overflow: hidden;
+}
+
+.nav-link {
+	color: white;
+}
+
+.about:hover {
+	color: #D98880;
+}
+
+.portfolio:hover {
+	color: #CD6155;
+}
+
+.contact:hover,
+.linkedin:hover,
+.github:hover {
+	color: #C0392B;
+}
+
+.navbar-right {
+	position: absolute;
+	right: 0px;
+	margin-right: -20px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-image: url(../images/chalkboard.jpg);
+  z-index: 2;
+}
+
+.aboutContainer {
+	position: relative;
+	background-color: #D98880;
+	z-index: 1;
+}
+
+
+#doodle1 {
+	width: 90%;
+	position: absolute;
+	right: -5px;
+	top:100px;
+	z-index: -1;
+}
+
+#doodle2 {
+	width: 90%;
+	position: absolute;
+	left: -5px;
+	z-index: -1;
+}
+
+.bioContainer {
+	background-image: url(../images/lined_paper.png);
+	width: 100%;
+	border: none;
+	background-color: #D98880;
+	position: absolute;
+	top: 100px;
+	z-index: 0;
+}
+
+.cardContent {
+	padding: 10px 30px 10px 30px;
+}
+
+#profileName {
+	font-size: 69px;
+	font-family: 'Lobster Two', cursive;
+	color: black;
+	border-bottom: solid black 2px; 
+	margin-bottom: 30px;
+}
+
+#profilePic {
+	width: 100%;
+}
+
+.bioContent {
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+}
+
+.resumeRow {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#resumeLink {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+}
+
+.portfolioContainer {
+	position: relative;
+	background-color: #CD6155;
+	z-index: 1;
+}
+
+.portfolioPhotoContainer {
+	position: absolute;
+	top: 100px;
+}
+
+.portfolioPhoto {
+	margin-top: 10px;
+	width: 100%;
+	border-top: 2px solid #E6B0AA;
+	border-right: 2px solid #E6B0AA;
+	border-left: 2px solid #E6B0AA;
+}
+
+.photoTitle {
+	font-family: 'Lobster Two', cursive;
+	color: #CD6155;
+	text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+	font-size: 3.5vmax;
+	text-align: center;
+	position: absolute;
+	top: 10%; 
+	right: 10%;
+	left: 10%;
+}
+
+@media screen and (max-width: 991px) {
+	.photoTitle {
+		font-size: 10vw;
+	}
+}
+
+.photoSub {
+	font-family: 'Open Sans', sans-serif;
+	text-align: left;
+	background-image: url(../images/lined_paper.png);
+	margin-bottom: 10px;
+	padding: 20px;
+	border: 2px solid #E6B0AA;
+}
+
+#icon {
+	font-size: 40px;
+	color:  #CD6155;
+}
+
+#techIcon {
+	font-size: 40px;
+	color:  #CD6155;
+}
+
+
+.hoverPortfolio {
+	position: absolute;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	top: 0px;
+	bottom: 0px;
+	width: 100%;
+	height: auto;
+	text-align: center;
+	display: none;
+}
+
+.githubButton {
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 0px;
+	position: absolute;
+	left: 2px;
+	top: 10px;
+}
+
+#githubLink {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+
+}
+
+.websiteButton {
+	padding-right: 0px;
+	padding-left: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin: 0px;
+	position: absolute;
+	left: 2px;
+}
+
+#websiteLink {
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	text-decoration: none;
+}
+
+.portfolioLink:hover {
+	text-decoration:none !important;
+}
+
+.portfolioLink:hover .hoverPortfolio{
+	display: block;
+}
+
+.portfolioLink:hover .portfolioPhoto{
+	opacity: 0.3;
+}
+
+.portfolioLink:hover .photoTitle {
+	opacity: 0.3;
+}
+
+.contactContainer {
+	position: relative;
+	background-color: #C0392B;
+	z-index: 1;
+}
+
+.contactForm {
+	position: absolute;
+	top: 100px;
+	width: 100%;
+	background-image: url(../images/lined_paper.png);
+	padding: 20px;
+}
+
+.contactTitle {
+	font-size: 69px;
+	font-family: 'Lobster Two', cursive;
+	color: black;
+	border-bottom: solid black 2px; 
+	margin-bottom: 30px;
+}
+
+form {
+	width: 100%;
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+}
+
+
+
+
+
+
+
+
