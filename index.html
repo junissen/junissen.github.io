@@ -536,7 +536,7 @@
 			    		<div class = "row">
 
 			    			<div class = "col-lg-12">
-				    			<form id="contactForm" method="POST">
+				    			<form action="https://formspree.io/nisse053@umn.edu" method="POST">
 								  <fieldset>
 								  	<div class="form-group">
 								      <label for="form_name">Name</label>
@@ -552,8 +552,11 @@
 								      <label for="form_message">Message</label>
 								      <textarea id="form_message" name="body" class="form-control" rows="10" placeholder="Enter message here..."></textarea>
 								    </div>
+
+								    <input type="hidden" name="_subject" value="New submission!" />
+								    <input type="hidden" name="_next" value="thanks.html" />
 								
-								    <button type="submit" id= "sendMessage" class="btn btn-primary">Submit</button>
+								    <button type="submit" value="send" class="btn btn-primary">Submit</button>
 								  </fieldset>
 								</form>
 							</div>
@@ -574,7 +577,6 @@
 	<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 	<script type="text/javascript" src="assets/javascript/scrollScript.js"></script>
 	<script type="text/javascript" src="assets/javascript/blockHeightScript.js"></script>
-	<script type="text/javascript" src="assets/javascript/sendMessage.js"></script>
 
 	</body>
 </html>
