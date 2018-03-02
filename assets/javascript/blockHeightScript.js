@@ -1,4 +1,5 @@
-$(document).ready( function() {
+$(window).ready( function() {
+
 	var bioContainer = $('.bioContainer');
 	var bioContainerHeight = bioContainer.height();
 	var aboutContainerHeight = bioContainerHeight + 200;
@@ -20,6 +21,11 @@ $(document).ready( function() {
 	var buttonHeight = $('.githubButton').height();
 	var newbuttonHeight = Math.abs(buttonHeight) * 3;
 	$('.websiteButton').css("top", newbuttonHeight);
+
+	var thanksbuttonWidth = $('.homeButton').width();
+	var thanksContainerWidth = $('.thanksContainer').width();
+	var newLeft = (Math.abs(thanksContainerWidth - thanksbuttonWidth))/2;
+	$('.homeButton').css("left", newLeft);
 
 	var contactFormContainer = $('.contactForm');
 	var contactFormContainerHeight = contactFormContainer.height();
