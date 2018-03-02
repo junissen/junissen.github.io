@@ -4,8 +4,10 @@ $("#sendMessage").on("click", function() {
 
     message = $("#contactForm").serialize();
 
+    console.log(message)
+
     $.ajax({
-        url: "//formspree.io/nisse053@umn.edu", 
+        url: "https://formspree.io/nisse053@umn.edu", 
         method: "POST",
         data: {message: message},
         dataType: "json"
