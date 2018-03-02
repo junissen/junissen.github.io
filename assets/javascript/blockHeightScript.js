@@ -22,16 +22,11 @@ $(window).ready( function() {
 	var newbuttonHeight = Math.abs(buttonHeight) * 3;
 	$('.websiteButton').css("top", newbuttonHeight);
 
-	var thanksbuttonWidth = $('.homeButton').width();
-	var thanksContainerWidth = $('.thanksContainer').width();
-	var newLeft = (Math.abs(thanksContainerWidth - thanksbuttonWidth))/2;
-	$('.homeButton').css("left", newLeft);
-
 	var contactFormContainer = $('.contactForm');
 	var contactFormContainerHeight = contactFormContainer.height();
 	var contactContainerHeight = contactFormContainerHeight + 200;
 	$('.contactContainer').height(contactContainerHeight)
-})
+});
 
 $(window).resize( function() {
 
