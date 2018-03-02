@@ -8,7 +8,6 @@
 	top: 100px;
 	width: 100%;
 	background-image: url(../images/lined_paper.png);
-	padding: 20px;
 }
 
 #thanksTitle {
@@ -35,4 +34,11 @@
 .homeButton {
 	padding: 20px;
 	position: relative
+}
+
+#doodle8 {
+	width: 100%;
+	position: relative;
+	bottom:-152px;
+	z-index: 1;
 }

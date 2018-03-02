@@ -109,6 +109,20 @@
 	z-index: -1;
 }
 
+#doodle6 {
+	width: 60%;
+	position: absolute;
+	top: 100px;
+	z-index: 1;
+}
+
+#doodle7 {
+	width: 60%;
+	position: absolute;
+	top: 100px;
+	z-index: 1;
+}
+
 .bioContainer {
 	background-image: url(../images/lined_paper.png);
 	width: 100%;
@@ -237,10 +251,9 @@
 }
 
 #githubLink {
-	color: white;
+	color: black;
 	font-family: 'Open Sans', sans-serif;
 	text-decoration: none;
-
 }
 
 .websiteButton {
@@ -275,10 +288,16 @@
 	opacity: 0.3;
 }
 
+
 .contactContainer {
 	position: relative;
 	background-color: #C0392B;
 	z-index: 1;
+}
+
+.contactCol {
+	margin: 0px;
+	padding: 0px;
 }
 
 .contactForm {
@@ -286,7 +305,7 @@
 	top: 100px;
 	width: 100%;
 	background-image: url(../images/lined_paper.png);
-	padding: 20px;
+	padding: 40px;
 }
 
 .contactTitle {

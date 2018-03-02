@@ -4,13 +4,14 @@ $(window).ready( function() {
 	var bioContainerHeight = bioContainer.height();
 	var aboutContainerHeight = bioContainerHeight + 200;
 	$(".aboutContainer").height(aboutContainerHeight);
-	var doodleHeight = $("#doodle2").height();
-	var doodleHeightSet = aboutContainerHeight - 100 - doodleHeight
-	$("#doodle2").css( {"top": doodleHeightSet + "px"});
+
+	var doodleHeight2 = $("#doodle2").height();
+	var doodleHeight2Set = aboutContainerHeight - 100 - doodleHeight2
+	$("#doodle2").css( {"top": doodleHeight2Set + "px"});
 
 	var portfolioPhotoContainer = $('.portfolioPhotoContainer');
 	var portfolioPhotoContainerHeight = portfolioPhotoContainer.height();
-	var portfolioContainerHeight = portfolioPhotoContainerHeight + 200;
+	var portfolioContainerHeight = portfolioPhotoContainerHeight +200;
 	$('.portfolioContainer').height(portfolioContainerHeight);
 
 	var hoverPortfolio = $('.portfolioLink');
@@ -25,7 +26,16 @@ $(window).ready( function() {
 	var contactFormContainer = $('.contactForm');
 	var contactFormContainerHeight = contactFormContainer.height();
 	var contactContainerHeight = contactFormContainerHeight + 200;
-	$('.contactContainer').height(contactContainerHeight)
+	$('.contactContainer').height(contactContainerHeight);
+
+	var doodleWidth6 = $("#doodle6").width();
+	var doodleRight6 = (doodleWidth6/6);
+	$('#doodle6').css( {"right": "-" + doodleRight6 + "px"} );
+
+	var doodleWidth7 = $("#doodle7").width();
+	var doodleLeft7 = (doodleWidth7/4)
+	$('#doodle7').css( {"left": "-" + doodleLeft7 + "px"} );
+
 });
 
 $(window).resize( function() {
@@ -34,15 +44,16 @@ $(window).resize( function() {
 	var bioContainerHeight = bioContainer.height();
 	var aboutContainerHeight = bioContainerHeight + 200;
 	$(".aboutContainer").height(aboutContainerHeight);
-	var doodleHeight = $("#doodle2").height();
-	var doodleHeightSet = aboutContainerHeight - 100 - doodleHeight;
-	$("#doodle2").css( {"top": doodleHeightSet + "px"});
+
+	var doodleHeight2 = $("#doodle2").height();
+	var doodleHeight2Set = aboutContainerHeight - 100 - doodleHeight2
+	$("#doodle2").css( {"top": doodleHeight2Set + "px"});
 
 	var portfolioPhotoContainer = $('.portfolioPhotoContainer');
 	var portfolioPhotoContainerHeight = portfolioPhotoContainer.height();
 	var portfolioContainerHeight = portfolioPhotoContainerHeight + 200;
 	$('.portfolioContainer').height(portfolioContainerHeight);
-	
+
 	var hoverPortfolio = $('.portfolioLink');
 	var hoverPortfolioWidth = hoverPortfolio.width() - 6;
 	$('.githubButton').width(hoverPortfolioWidth);
@@ -55,6 +66,13 @@ $(window).resize( function() {
 	var contactFormContainer = $('.contactForm');
 	var contactFormContainerHeight = contactFormContainer.height();
 	var contactContainerHeight = contactFormContainerHeight + 200;
-	$('.contactContainer').height(contactContainerHeight)
+	$('.contactContainer').height(contactContainerHeight);
 
+	var doodleWidth6 = $("#doodle6").width();
+	var doodleRight6 = (doodleWidth6/6);
+	$('#doodle6').css( {"right": "-" + doodleRight6 + "px"} );
+
+	var doodleWidth7 = $("#doodle7").width();
+	var doodleLeft7 = (doodleWidth7/4)
+	$('#doodle7').css( {"left": "-" + doodleLeft7 + "px"} );
 })
