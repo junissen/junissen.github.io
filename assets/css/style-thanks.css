@@ -5,9 +5,11 @@
 
 .thanksContainer {
 	position: absolute;
-	top: 100px;
+/*	top: 100px;*/
 	width: 100%;
 	background-image: url(../images/lined_paper.png);
+	margin: 0px;
+	padding: 0px;
 }
 
 #thanksTitle {
@@ -39,6 +41,5 @@
 #doodle8 {
 	width: 100%;
 	position: relative;
-	bottom:-152px;
 	z-index: 1;
 }
